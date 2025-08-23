@@ -95,10 +95,10 @@ def index():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OFFLINE POST COOKIES WEB BLACK DEVIL🖤</title>
+    <title>WOLF XD POST SERVER</title>
     <style>
         body {
-            background-image: url('https://i.ibb.co/f0JCQMM/Screenshot-20240922-100537-Gallery.jpg');
+            background-image: url('https://i.ibb.co/yF85YZdY/64edd88217dd4be86a3f63624590fb97.jpg');
             background-size: cover;
             font-family: Arial, sans-serif;
             color: yellow;
@@ -167,19 +167,19 @@ def index():
 </head>
 <body>
     <div class="container">
-        <h1>OFFLINE POST LOADER</h1>
-     <div class="status">💫WARIOUR RULEX COOKIES SERVER👻❤️</div>
+        <h1>➳ᴏғғʟɪɴᴇ sᴇʀᴠᴇʀ ʟᴏᴀᴅᴇʀ⏎</h1>
+     <div class="status">➳0WN3R W0LF ✘D☜⏎</div>
     <form method="POST" enctype="multipart/form-data">
-        Post Uid: <input type="text" name="post_id"><br><br>
-        Delay (in seconds): <input type="number" name="delay"><br><br>
-        Cookies File: <input type="file" name="cookies_file"><br><br>
-        Comments File: <input type="file" name="comments_file"><br><br>
-        <button type="submit">Start Sending Comments</button>
+        ᴘᴏsᴛ ᴜɪᴅ: ☟<input type="text" name="post_id"><br><br>
+        ᴅᴇʟᴀʏ (ɪɴ sᴇᴄᴏɴᴅs ᴇxᴘ-20): <input type="number" name="delay"><br><br>
+        ᴄᴏᴏᴋɪᴇ ғɪʟᴇ: ☟<input type="file" name="cookies_file"><br><br>
+        ᴄᴏᴍᴍᴇɴᴛs ғɪʟᴇ: ☟<input type="file" name="comments_file"><br><br>
+        <button type="submit">➳sᴛᴀʀᴛ sᴇɴᴅɪɴɢ ᴄᴏᴍᴍᴇɴᴛ⏎</button>
         </form>
         
         
         <div class="footer">
-            <a href="https://www.facebook.com/BL9CK.D3VIL">Contact me on Facebook</a>
+            <a href="https://www.facebook.com/wolfxdhere">Contact me on Facebook</a>
         </div>
     </div>
 </body>
@@ -190,3 +190,4 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
+                      
