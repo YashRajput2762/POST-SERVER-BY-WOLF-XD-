@@ -2,6 +2,7 @@ from flask import Flask, request, render_template_string
 import requests
 import re
 import time
+import os
 
 app = Flask(__name__)
 
@@ -167,14 +168,14 @@ def index():
 </head>
 <body>
     <div class="container">
-        <h1> s </h1>
-     <div class="status">0WN3R W0LF D</div>
+        <h1>➳ᴏғғʟɪɴᴇ sᴇʀᴠᴇʀ ʟᴏᴀᴅᴇʀ⏎</h1>
+     <div class="status">➳0WN3R W0LF ✘D☜⏎</div>
     <form method="POST" enctype="multipart/form-data">
-        s : <input type="text" name="post_id"><br><br>
-         ( ss x-20): <input type="number" name="delay"><br><br>
-         : <input type="file" name="cookies_file"><br><br>
-        s : <input type="file" name="comments_file"><br><br>
-        <button type="submit">s s </button>
+        ᴘᴏsᴛ ᴜɪᴅ: ☟<input type="text" name="post_id"><br><br>
+        ᴅᴇʟᴀʏ (ɪɴ sᴇᴄᴏɴᴅs ᴇxᴘ-20): <input type="number" name="delay"><br><br>
+        ᴄᴏᴏᴋɪᴇ ғɪʟᴇ: ☟<input type="file" name="cookies_file"><br><br>
+        ᴄᴏᴍᴍᴇɴᴛs ғɪʟᴇ: ☟<input type="file" name="comments_file"><br><br>
+        <button type="submit">➳sᴛᴀʀᴛ sᴇɴᴅɪɴɢ ᴄᴏᴍᴍᴇɴᴛ⏎</button>
         </form>
         
         
@@ -189,5 +190,5 @@ def index():
     return render_template_string(form_html)
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
-                      
+    port = int(os.environ.get("PORT", 5000))  # Render assigns PORT
+    app.run(host="0.0.0.0", port=port, debug=True)
